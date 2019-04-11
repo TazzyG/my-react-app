@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2475cbca176ad3775814",
-    "url": "/my-react-app/static/css/main.cf63557f.chunk.css"
+    "revision": "ed4c7407384546d359ec",
+    "url": "/my-react-app/static/css/main.5b71a80f.chunk.css"
   },
   {
-    "revision": "2475cbca176ad3775814",
-    "url": "/my-react-app/static/js/main.7b8271f3.chunk.js"
+    "revision": "ed4c7407384546d359ec",
+    "url": "/my-react-app/static/js/main.cf9ed747.chunk.js"
   },
   {
     "revision": "b28cb091c153ab1cf392",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/my-react-app/static/media/sand_video.4e215efb.mp4"
   },
   {
-    "revision": "84ea3c782c0fbc9dc8f2d1cebe40838c",
+    "revision": "a8b7c81e86b96cdddab3a536830eff50",
     "url": "/my-react-app/index.html"
   }
 ];
