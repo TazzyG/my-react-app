@@ -5,9 +5,12 @@ import "../App.css";
 import "./video.jsx";
 
 class Banner extends Component {
+  state = {
+    count: 0
+  };
   render() {
     return (
-      <jsxFragment>
+      <React.Fragment>
         <header>
           <div className="overlay" />
           <video
@@ -58,14 +61,133 @@ class Banner extends Component {
                 <p className="mb-0">
                   I love the open source community which is why this site is
                   hosted on <a href="https://github.com/">github</a>. Follow
-                  along with me while I make updates.
+                  along with me while I make updates. So far there are{" "}
+                  {this.formatCount()} articles created.
                 </p>
               </div>
             </div>
           </div>
         </section>
-      </jsxFragment>
+        <section className="pictures">
+          <div className="row">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                className="zoom img-fluid"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  className="zoom img-fluid "
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                className="zoom img-fluid"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  className="zoom img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                className="zoom img-fluid"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  className="zoom img-fluid "
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                className="zoom img-fluid"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  className="zoom img-fluid "
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                className="zoom img-fluid"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  className="zoom img-fluid "
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                className="zoom img-fluid"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                  className="zoom img-fluid "
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                className="fancybox"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  className="zoom img-fluid "
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a
+                href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="fancybox"
+                rel="ligthbox"
+              >
+                <img
+                  src="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="zoom img-fluid "
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </React.Fragment>
     );
+  }
+  formatCount() {
+    const { count } = this.state;
+    return count === 0 ? "Zero" : count;
   }
 }
 export default Banner;
