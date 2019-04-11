@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { HashRouter, Route, Link } from "react-router-dom";
-// import sand from "../banner/sand.jpg";
 import sand_video from "../banner/sand_video.mp4";
 import "../App.css";
 import "./video.jsx";
