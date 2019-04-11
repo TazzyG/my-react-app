@@ -1,16 +1,16 @@
 {
-  "main.css": "/my-react-app/static/css/main.f93c716e.chunk.css",
-  "main.js": "/my-react-app/static/js/main.cc284d7c.chunk.js",
-  "main.js.map": "/my-react-app/static/js/main.cc284d7c.chunk.js.map",
+  "main.css": "/my-react-app/static/css/main.cf63557f.chunk.css",
+  "main.js": "/my-react-app/static/js/main.7b8271f3.chunk.js",
+  "main.js.map": "/my-react-app/static/js/main.7b8271f3.chunk.js.map",
   "runtime~main.js": "/my-react-app/static/js/runtime~main.f5ab8794.js",
   "runtime~main.js.map": "/my-react-app/static/js/runtime~main.f5ab8794.js.map",
   "static/css/2.e6e46f7a.chunk.css": "/my-react-app/static/css/2.e6e46f7a.chunk.css",
-  "static/js/2.ab2d1dd9.chunk.js": "/my-react-app/static/js/2.ab2d1dd9.chunk.js",
-  "static/js/2.ab2d1dd9.chunk.js.map": "/my-react-app/static/js/2.ab2d1dd9.chunk.js.map",
+  "static/js/2.1114a3c3.chunk.js": "/my-react-app/static/js/2.1114a3c3.chunk.js",
+  "static/js/2.1114a3c3.chunk.js.map": "/my-react-app/static/js/2.1114a3c3.chunk.js.map",
   "index.html": "/my-react-app/index.html",
-  "precache-manifest.9713fb5dcc1be7fa56bc0722ae588ecb.js": "/my-react-app/precache-manifest.9713fb5dcc1be7fa56bc0722ae588ecb.js",
+  "precache-manifest.a46942ab38d78c4a6a2fa7530ccd70da.js": "/my-react-app/precache-manifest.a46942ab38d78c4a6a2fa7530ccd70da.js",
   "service-worker.js": "/my-react-app/service-worker.js",
   "static/css/2.e6e46f7a.chunk.css.map": "/my-react-app/static/css/2.e6e46f7a.chunk.css.map",
-  "static/css/main.f93c716e.chunk.css.map": "/my-react-app/static/css/main.f93c716e.chunk.css.map",
+  "static/css/main.cf63557f.chunk.css.map": "/my-react-app/static/css/main.cf63557f.chunk.css.map",
   "static/media/sand_video.mp4": "/my-react-app/static/media/sand_video.4e215efb.mp4"
 }
