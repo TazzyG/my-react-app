@@ -1,9 +1,0 @@
-{
-  "short_name": "Haathi",
-  "name": "Haathi Consulting",
-
-  "start_url": "haathi-consulting.com",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
