@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import sand from "../banner/sand.jpg";
+// import sand from "../banner/sand.jpg";
 import sand_video from "../banner/sand_video.mp4";
 import "../App.css";
 import "./video.jsx";
@@ -7,13 +7,17 @@ import "./video.jsx";
 class Banner extends Component {
   render() {
     return (
-      <div className="homepage-hero-module">
-        <div className="video-container">
-          <div className="filter" />
-          <video src={sand_video} autoPlay loop muted />
-          <div className="poster hidden">
-            <img src={sand} alt="walk in sand" />
-          </div>
+      <div class="homepage-hero-module">
+        <div class="video-container">
+          <div class="filter" />
+          <video
+            autoPlay="autoplay"
+            loop="loop"
+            muted="muted"
+            playsInline="playsinline"
+          >
+            <source src={sand_video} type="video/mp4" />
+          </video>
         </div>
       </div>
     );
