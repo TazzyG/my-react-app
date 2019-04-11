@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/sand_video.4e215efb.mp4"
   },
   {
-    "revision": "f0c09513c10c89e76ac0fb24412e5355",
+    "revision": "a093608857f38544cb81fe71c3fd3e4b",
     "url": "/index.html"
   }
 ];
