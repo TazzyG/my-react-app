@@ -38,12 +38,12 @@ class Banner extends Component {
               <div className="col-md-8 mx-auto">
                 <p>
                   After hiding away, learning full stack web development, I
-                  decided to start a brand new site. I will post articles and
-                  tips and things I have learned in my career that help build a
-                  business thrive online. I have learned As a consultant, turned
-                  full stack web developer, I experienced many ups and downs
-                  that I hope can help make a difference to my friends who are
-                  following the same path.
+                  decided to start a brand based on learning while building. I
+                  will post articles and tips and things I have learned in my
+                  career that help build a business thrive online. I have
+                  learned As a consultant, turned full stack web developer, I
+                  experienced many ups and downs that I hope can help make a
+                  difference to my friends who are following the same path.
                 </p>
                 <p>
                   I have always been bewildered by the fact that developers
