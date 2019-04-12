@@ -41,9 +41,10 @@ class Banner extends Component {
                   decided to start a brand based on learning while building. I
                   will post articles and tips and things I have learned in my
                   career that help build a business thrive online. I have
-                  learned As a consultant, turned full stack web developer, I
-                  experienced many ups and downs that I hope can help make a
-                  difference to my friends who are following the same path.
+                  learned as a consultant, turned full stack web developer
+                  through many ups and downs that taking one step at a time can
+                  make a difference. I hope sharing my experiences can help make
+                  a difference to my friends who are following the same path.
                 </p>
                 <p>
                   I have always been bewildered by the fact that developers
