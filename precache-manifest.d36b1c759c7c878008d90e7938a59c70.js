@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "a714ef8621baf8405417",
-    "url": "/static/css/main.1905a0bc.chunk.css"
+    "revision": "ab12ce5d874d87947e76",
+    "url": "/static/css/main.a8a13e94.chunk.css"
   },
   {
-    "revision": "a714ef8621baf8405417",
+    "revision": "ab12ce5d874d87947e76",
     "url": "/static/js/main.3eacbb9b.chunk.js"
   },
   {
@@ -24,7 +24,11 @@ self.__precacheManifest = [
     "url": "/static/media/sand_video.4e215efb.mp4"
   },
   {
-    "revision": "b2a0bfc469f97a31ab7c3cadc09b300a",
+    "revision": "287dc9093ded964426094b79a3700873",
+    "url": "/static/media/sand.287dc909.jpg"
+  },
+  {
+    "revision": "d3b3c7a5f0ad5e70aacb3c85cfaf252b",
     "url": "/index.html"
   }
 ];
