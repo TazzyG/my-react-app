@@ -13,10 +13,12 @@ class Banner extends Component {
         <header>
           <div className="overlay" />
           <video
+            class="video-background"
             playsInline="playsinline"
             autoPlay="autoplay"
             muted="muted"
             loop="loop"
+            controls="true"
           >
             <source src={sand_video} type="video/mp4" />
           </video>
