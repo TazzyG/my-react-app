@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "6fcc11d24a5e015f552a",
-    "url": "/static/css/main.2f391add.chunk.css"
+    "revision": "0ff8e1fa63d9f5373c79",
+    "url": "/static/css/main.fdcc7404.chunk.css"
   },
   {
-    "revision": "6fcc11d24a5e015f552a",
+    "revision": "0ff8e1fa63d9f5373c79",
     "url": "/static/js/main.3eacbb9b.chunk.js"
   },
   {
@@ -24,11 +24,11 @@ self.__precacheManifest = [
     "url": "/static/media/sand_video.4e215efb.mp4"
   },
   {
-    "revision": "82940a5ebdb5a8f64203f1301a69f47b",
-    "url": "/static/media/john-doyle-1206473-unsplash.82940a5e.jpg"
+    "revision": "62a98265b312efa5bb79822bd23fc38d",
+    "url": "/static/media/john-doyle-1206473-unsplash.62a98265.jpg"
   },
   {
-    "revision": "9b3e8279741388ab849d4231c28f1eec",
+    "revision": "bee75e05ef8bd477fd0d98dd9dcc672e",
     "url": "/index.html"
   }
 ];
