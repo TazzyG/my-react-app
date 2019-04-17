@@ -88,6 +88,10 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("./banner/sand.jpg") black no-repeat center center scroll;
+    background: url("./banner/john-doyle-1206473-unsplash.jpg") black no-repeat
+      center center scroll;
+  }
+  header video {
+    display: none;
   }
 }
