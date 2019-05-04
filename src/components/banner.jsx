@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import sand_video from "../banner/sand_video.mp4";
 import "../App.css";
 import "./video.jsx";
+import Topics from "./topics.jsx";
 
 class Banner extends Component {
   state = {
@@ -66,6 +67,15 @@ class Banner extends Component {
                   along with me while I make updates. So far there are{" "}
                   {this.formatCount()} articles created.
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="my-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 mx-auto">
+                <Topics />
               </div>
             </div>
           </div>
