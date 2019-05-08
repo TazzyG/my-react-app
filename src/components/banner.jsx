@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import sand_video from "../banner/sand_video.mp4";
+import agile from "../banner/agile.mp4";
+import coin from "../banner/coin.mp4";
+import modem_lights from "../banner/modem_lights.mp4";
+import sunset_lapse from "../banner/sunset_lapse.mp4";
+
 import "../App.css";
 import "./video.jsx";
 import Topics from "./topics.jsx";
 
+const BANNDER_VIDEOS = [sand_video, agile, coin, modem_lights, sunset_lapse];
 class Banner extends Component {
   state = {
-    count: 0
+    count: 0,
+    video: sand_video
   };
   render() {
     return (
@@ -21,7 +28,7 @@ class Banner extends Component {
             loop="loop"
             controls={true}
           >
-            <source src={sand_video} type="video/mp4" />
+            <source src={this.state.video} type="video/mp4" />
           </video>
           <div className="container h-100">
             <div className="d-flex h-100 text-center align-items-center">
