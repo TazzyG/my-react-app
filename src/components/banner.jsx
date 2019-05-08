@@ -9,11 +9,15 @@ import "../App.css";
 import "./video.jsx";
 import Topics from "./topics.jsx";
 
-const BANNDER_VIDEOS = [sand_video, agile, coin, modem_lights, sunset_lapse];
+const BANNER_VIDEOS = [sand_video, agile, coin, modem_lights, sunset_lapse];
 class Banner extends Component {
   state = {
     count: 0,
-    video: sand_video
+    video: "sand_video",
+    message: "Welcome, You are on the Home Page"
+  };
+  handleSelect = topic => {
+    console.log("event handler called");
   };
   render() {
     return (
@@ -28,7 +32,11 @@ class Banner extends Component {
             loop="loop"
             controls={true}
           >
-            <source src={this.state.video} type="video/mp4" />
+            <source
+              onSelect={this.handleSelect}
+              src={this.state.video}
+              type="video/mp4"
+            />
           </video>
           <div className="container h-100">
             <div className="d-flex h-100 text-center align-items-center">

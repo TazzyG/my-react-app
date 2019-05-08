@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import { getTopics } from "../services/fakeTopicService";
 class Topics extends Component {
   state = {
+    topic: this.props.topic,
     topics: getTopics()
   };
-  handleSelect = topic => {
-    console.log(topic);
+  onSelect = topic => {
+    console.log(topic.name + "  selected");
   };
   render() {
     const { length: count } = this.state.topics;
@@ -25,7 +26,7 @@ class Topics extends Component {
           <tbody>
             {this.state.topics.map(topic => (
               <tr key={topic._id}>
-                <td onClick={() => this.handleSelect(topic)}>{topic.name}</td>
+                <td onClick={() => this.onSelect(topic)}>{topic.name}</td>
                 <td />
                 <td />
                 <td />
