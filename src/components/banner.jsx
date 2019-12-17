@@ -5,6 +5,9 @@ import "./video.jsx";
 import Topics from "./topics.jsx";
 
 class Banner extends Component {
+  constructor(props) {
+    super(props);
+  }
   state = {
     count: 0
   };
@@ -75,6 +78,7 @@ class Banner extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8 mx-auto">
+                <h1> Topics Test </h1>
                 <Topics />
               </div>
             </div>
