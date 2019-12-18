@@ -13,14 +13,12 @@ class Topics extends Component {
     if (count === 0) return <p>I'm still working on some Topics</p>;
     return (
       <React.Fragment>
-        <div class="carousel slide text-light" data-ride="carousel">
-          <p> So far {count} topics </p>
-          {this.state.topics.map(topic => (
-            <i key={topic._id} class={"fa-${topic.icon}"}>
-              <span onClick={() => this.handleSelect(topic)}>{topic.name}</span>
-            </i>
-          ))}
-        </div>
+        <p> So far {count} topics </p>
+        {this.state.topics.map(topic => (
+          <div key={topic._id}>
+            <span onClick={() => this.handleSelect(topic)}>{topic.name}</span>
+          </div>
+        ))}
       </React.Fragment>
     );
   }
