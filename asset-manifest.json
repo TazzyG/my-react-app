@@ -1,18 +1,28 @@
 {
-  "main.css": "/static/css/main.32786752.chunk.css",
-  "main.js": "/static/js/main.153ed89d.chunk.js",
-  "main.js.map": "/static/js/main.153ed89d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/css/2.9d8d5b1f.chunk.css": "/static/css/2.9d8d5b1f.chunk.css",
-  "static/js/2.3739a69d.chunk.js": "/static/js/2.3739a69d.chunk.js",
-  "static/js/2.3739a69d.chunk.js.map": "/static/js/2.3739a69d.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.d01749d8c996f30f689fc0c062eb0093.js": "/precache-manifest.d01749d8c996f30f689fc0c062eb0093.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.9d8d5b1f.chunk.css.map": "/static/css/2.9d8d5b1f.chunk.css.map",
-  "static/css/main.32786752.chunk.css.map": "/static/css/main.32786752.chunk.css.map",
-  "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/App.css": "/static/media/john-doyle-1206473-unsplash.62a98265.jpg",
-  "static/media/sand_video.mp4": "/static/media/sand_video.4e215efb.mp4"
+  "files": {
+    "main.css": "/static/css/main.cf5556db.chunk.css",
+    "main.js": "/static/js/main.47cf9ff9.chunk.js",
+    "main.js.map": "/static/js/main.47cf9ff9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.04e23692.js",
+    "runtime-main.js.map": "/static/js/runtime-main.04e23692.js.map",
+    "static/css/2.1fc90354.chunk.css": "/static/css/2.1fc90354.chunk.css",
+    "static/js/2.4634b1df.chunk.js": "/static/js/2.4634b1df.chunk.js",
+    "static/js/2.4634b1df.chunk.js.map": "/static/js/2.4634b1df.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c7b5c7b007468fc4c7dbd5882eede671.js": "/precache-manifest.c7b5c7b007468fc4c7dbd5882eede671.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1fc90354.chunk.css.map": "/static/css/2.1fc90354.chunk.css.map",
+    "static/css/main.cf5556db.chunk.css.map": "/static/css/main.cf5556db.chunk.css.map",
+    "static/js/2.4634b1df.chunk.js.LICENSE": "/static/js/2.4634b1df.chunk.js.LICENSE",
+    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/App.css": "/static/media/john-doyle-1206473-unsplash.62a98265.jpg",
+    "static/media/sand_video.mp4": "/static/media/sand_video.4e215efb.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04e23692.js",
+    "static/css/2.1fc90354.chunk.css",
+    "static/js/2.4634b1df.chunk.js",
+    "static/css/main.cf5556db.chunk.css",
+    "static/js/main.47cf9ff9.chunk.js"
+  ]
 }
