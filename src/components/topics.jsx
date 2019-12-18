@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { getTopics } from "../services/fakeTopicService";
 class Topics extends Component {
-  state = {
-    topics: getTopics()
-  };
+  constructor(props) {
+    state = {
+      topics: getTopics()
+    };
+  }
   handleSelect = topic => {
     console.log(topic);
   };
@@ -13,26 +15,11 @@ class Topics extends Component {
     return (
       <React.Fragment>
         <p> So far {count} topics </p>
-        <table className="table">
-          <thead>
-            <tr>
-              <th> Topic </th>
-              <th> Tips </th>
-              <th> New </th>
-              <th> Articles </th>
-            </tr>
-          </thead>
-          <tbody>
-            {this.state.topics.map(topic => (
-              <tr key={topic._id}>
-                <td onClick={() => this.handleSelect(topic)}>{topic.name}</td>
-                <td />
-                <td />
-                <td />
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        {this.state.topics.map(topic => (
+          <div key={topic._id}>
+            <span onClick={() => this.handleSelect(topic)}>{topic.name}</span>
+          </div>
+        ))}
       </React.Fragment>
     );
   }
