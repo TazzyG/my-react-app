@@ -1,7 +1,7 @@
 #IMPORTANT
 
 After deploy,
-yarn run deploy
+npm run deploy
 
 Push
 

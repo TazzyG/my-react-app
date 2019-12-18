@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { getTopics } from "../services/fakeTopicService";
 class Topics extends Component {
-  constructor(props) {
-    state = {
-      topics: getTopics()
-    };
-  }
+  state = {
+    topics: getTopics()
+  };
+
   handleSelect = topic => {
     console.log(topic);
   };
