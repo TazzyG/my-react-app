@@ -13,6 +13,7 @@ class Topics extends Component {
     if (count === 0) return <p>I'm still working on some Topics</p>;
     return (
       <React.Fragment>
+        <h1> Test </h1>
         <p> So far {count} topics </p>
         {this.state.topics.map(topic => (
           <div key={topic._id}>
